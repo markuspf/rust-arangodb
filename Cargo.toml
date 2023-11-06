@@ -1,0 +1,18 @@
+[package]
+name = "rust-arangodb"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "aql_native"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+cxx = "> 0.0.0"
+
+[build-dependencies]
+cmake = ">= 0.1"
+cxx-build = "> 0.0.0"
+
+

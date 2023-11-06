@@ -1,0 +1,3 @@
+[submodule "arangodb"]
+	path = arangodb
+	url = https://git@github.com/markuspf/arangodb
